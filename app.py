@@ -17,7 +17,7 @@ with open('model.pkl', 'rb') as f:
     model = pickle.load(f)
 
 # หัวข้อ
-st.title("Image Classification with MoblieNetV2 by Wichayarin Rattaphonwalitpong")
+st.title("Image Classification with MoblieNetV2 by Ekkarat Singkhala")
 
 #file upload
 upload_file = st.file_uploader("Upload image:",type = ["jpg","jpeg","png"])
